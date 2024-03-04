@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&display=swap');
+
+.header-container {
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    background-color: rgba(95, 95, 95, 0.1);
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+.header-logo-container {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Madimi One", sans-serif;
+}
+
+.header-options-container {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-options{
+    font-weight: 600;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.header-options li {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline;
+    margin-right: 6%;
+    font-family: "Anta", sans-serif;
+}
+
+.header-options li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (min-width: 521px) and ( max-width: 930px) {
+    .header-options li {
+        font-size: 17px;
+        margin-right: 3%;
+    }
+
+    .header-logo-container {
+        width: 20%;
+    }
+
+    .header-options-container {
+        width: 80%;
+    }
+
+    .header-logo {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 520px) {
+    .header-options li {
+        font-size: 12px;
+        margin-right: 2%;
+    }
+
+    .header-logo-container {
+        width: 20%;
+    }
+
+    .header-options-container {
+        width: 80%;
+    }
+
+    .header-logo {
+        font-size: 25px;
+    }
+}
+

@@ -1,0 +1,98 @@
+.home-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffffff, #cccccc);
+}
+
+.home-side {
+    width: 38%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.home-image-container {
+    width: 80%;
+    height: 80%;
+}
+
+.home-image{
+    width: 100%;
+    height: 100%;
+}
+
+.home-content-container {
+    width: 80%;
+    height: 80%;
+}
+
+.home-text-container{
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.text {
+    font-size: 22px;
+    font-family: "Madimi One", sans-serif;
+}
+
+.text.big {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-about-button-container {
+    width: 100%;
+    height: 15%;
+}
+
+.home-about-button {
+    width: 40%;
+    height: 55%;
+    border: 2px solid #000;
+    background-color: #FFF;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Madimi One", sans-serif;
+    color: #000;
+}
+
+.home-about-button:hover {
+    cursor: pointer;
+    background-color: #111;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.home-icons-container {
+    width: 100%;
+    height: 25%;
+    text-align: left;
+}
+
+.home-icons {
+    list-style-type: none;
+    padding-left: 1%;
+}
+
+.home-icons li {
+    display: inline;
+    margin-right: 2%;
+}
+
+.home-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
